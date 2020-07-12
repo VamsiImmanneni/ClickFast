@@ -1,0 +1,44 @@
+html, body {
+    width: 120px;
+    margin-top: 5px;
+    height: 125px;
+}
+
+button {
+    background: #fff;
+    border-radius: 5px;
+    border-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    width: 90px;
+    transition: background 0.2s;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.button1:hover, .button1:active {
+    background: darkseagreen;
+}
+.button2:hover, .button2:active {
+    background: #ffba3b;
+}
+.button3:hover, .button3:active {
+    background: #ff4444;
+}
+.button4:hover, .button3:active {
+    background: #ff0000;
+}
+
+.button4 {
+    text-align: center;
+    height: 20px
+}
+
+.exit:hover, .exit:active {
+    background: red;
+}
